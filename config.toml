@@ -1,0 +1,32 @@
+baseURL = 'https://blog.transient.cyou'
+languageCode = 'en-us'
+title = '保10洁的草帽'
+theme = 'yinyang'
+DefaultContentLanguage = "cn"
+enableRobotsTXT = true
+canonifyURLs = false
+
+[author]
+  name = "TuuuBug"
+  homepage = "https://blog.transient.cyou"
+
+[params]
+  headTitle = "保10洁的草帽"
+  description = "Record every transient thing."
+  mainSections = ["posts"]
+  favicon = "/logo.jpg"
+  lazyImage = true
+
+[[params.socials]]
+  name = "About"
+  link = "/about"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 2
