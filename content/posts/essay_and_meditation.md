@@ -1,5 +1,5 @@
 ---
-title: "Essay"
+title: "日常随笔与沉思"
 date: 2020-07-08T21:09:11+08:00
 categories: ['Thinking']
 tags: ['Essay', 'Thinking', 'Notes']
