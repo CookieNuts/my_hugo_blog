@@ -12,7 +12,7 @@ draft: false
 + Mac中的Dock和导航栏，在Win中也有个很相似的工具MyDock，有兴趣可以试试有惊喜
 
 ### AutohotKey Win脚本
-```Autohotkey
+```
 ; ## 长按CapsLock 切换大小写，短按切换输入法中英文
 SetStoreCapslockMode, off
 Capslock::
