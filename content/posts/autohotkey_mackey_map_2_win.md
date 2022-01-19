@@ -101,4 +101,3 @@ $!F12::
 	SendInput {Ctrl Down}{F12}{Ctrl Up} ; 类方法列表
 Return
 ```
-
