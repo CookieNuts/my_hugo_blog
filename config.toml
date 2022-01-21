@@ -28,5 +28,5 @@ canonifyURLs = false
   [markup.highlight]
     guessSyntax = true
     noClasses = true
-    style = "tango"
-    tabWidth = 2
+    style = "manni"
+    tabWidth = 4
