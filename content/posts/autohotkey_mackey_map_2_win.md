@@ -28,7 +28,7 @@ mainp:
 Return
 
 !^q::
-   DllCall("LockWorkStation")
+    DllCall("LockWorkStation")
 Return
 
 ; ## 常用快捷键mac键位 -> windows键位
