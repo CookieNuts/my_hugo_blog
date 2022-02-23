@@ -12,7 +12,7 @@ canonifyURLs = false
 
 [params]
   headTitle = "保10洁的草帽"
-  description = "Record every transient thing."
+  description = "Record all transient and precious things"
   mainSections = ["posts"]
   favicon = "/logo.jpg"
   lazyImage = true
