@@ -16,6 +16,7 @@ canonifyURLs = false
   mainSections = ["posts"]
   favicon = "/logo.jpg"
   lazyImage = true
+  postFooterContent = "<br/><br/><p>@TuuuBug's Blog</p>"
 
 [[params.socials]]
   name = "About"
@@ -28,5 +29,5 @@ canonifyURLs = false
   [markup.highlight]
     guessSyntax = true
     noClasses = true
-    style = "manni"
+    style = "friendly"
     tabWidth = 4

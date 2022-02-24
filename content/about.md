@@ -10,7 +10,10 @@ draft: false
   <li style="font-family: serif;list-style: none;text-align: center;">Hey, I'm TuuuBug and I really like this intriguing photo😘 , so use it as my blog name and avatar.</li>
 </ul>
 
-##### 修内>修外&emsp;&ensp;|&emsp;国家一级搬运工  
-##### 运动小能手&emsp;|&emsp;🏃 🏊 🏸️ 🎿 ⛰️  
-##### 广告行业&emsp;&emsp;|&emsp;AdTech  
-##### Keep Real&emsp;&ensp;&nbsp;|&emsp;自信的普通人最可贵
+---
+
+#### <center>《灵山》</center>
+#### <center>歇坐须知勿论他人短处</center>
+#### <center>起步登程尽赏龙溪秀水</center>
+#### <center>别行莫忘耳闻萍水良言</center>
+#### <center>回眸远瞩览胜凤里灵山</center>
