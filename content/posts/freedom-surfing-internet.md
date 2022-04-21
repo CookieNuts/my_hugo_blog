@@ -1,6 +1,6 @@
 ---
 title: "低价VPS体(tang)验(keng)记录"
-date: 2021-12-18T17:10:20+08:00
+date: 2020-12-18T17:10:20+08:00
 categories: ['Tech']
 tags: ['VPS', '科学上网', '趟坑']
 draft: false
