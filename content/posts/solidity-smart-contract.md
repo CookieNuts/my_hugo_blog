@@ -91,6 +91,9 @@ this.yourFunction.selector  //获取方法签名
 5.使用<>代替<=, >=操作
 6.调用函数使用internal修饰会更节省Gas，因为参数会以引用传递
 7.合约函数多使用external少使用public
+8.使用Merkle Root存储多值用于证明value存在性
+9.EVM使用32byte(256bit)storage slot，可以将小单位值打包存储，EVM也尝试会将struct中小变量打包为storage slot以节省空间
+10.合约代码中禁止排序，循环遍历等操作，Off-Chain Computation ，合约只做状态存储和基础共识操作
 ```
 
 ## call，delegatecall
@@ -114,3 +117,10 @@ delegatecall本质是将L合约中的方法加载到P中执行代码，修改P�
 bytes4(abi.encodeWithSignature(funcSinature))
 bytes4(keccak256(bytes(funcSinature)))
 ```
+
+## Solidity漏洞
+1.重入攻击问题，使用check-effect-interact模式防止重入攻击，openzeeplin ReentrancyGuard
+2.无符号整型溢出，使用SafeMath
+3.使用withdraw-pattern代替循环转账模式，防止目标合约恶意失败导致DOS攻击
+4.使用OnlyOwner加强权限控制，明确函数可见性
+5.使用require/assert/revert/throw条件判断机制，代替代码返回true/false方式，防止状态漏洞(虚假充值)
