@@ -119,8 +119,10 @@ bytes4(keccak256(bytes(funcSinature)))
 ```
 
 ## Solidity漏洞
+```
 1.重入攻击问题，使用check-effect-interact模式防止重入攻击，openzeeplin ReentrancyGuard
 2.无符号整型溢出，使用SafeMath
 3.使用withdraw-pattern代替循环转账模式，防止目标合约恶意失败导致DOS攻击
 4.使用OnlyOwner加强权限控制，明确函数可见性
 5.使用require/assert/revert/throw条件判断机制，代替代码返回true/false方式，防止状态漏洞(虚假充值)
+```
