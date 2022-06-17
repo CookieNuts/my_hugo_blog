@@ -34,3 +34,9 @@ ___
 ![](/posts/freedom-surfing-internet/11189292-fd8036199ae87292.png "ping-test.png")
 ![](/posts/freedom-surfing-internet/11189292-989b225fd9db5a16.jpeg "mtr-test.jpg")
 ![](/posts/freedom-surfing-internet/11189292-f5a9541bf8f86baf.png "4K-test.png")
+
+### HNCloud
+一直想尝试一下超低延时的节点，调研了一段时间后选择了CN2-GIA香港节点，但是香港节点的特点就是超低带宽1-10Mpbs的小水管，即使如此价格依然很高，而且每增加1Mbps带宽价格将近翻一倍。正好碰到华纳云618促销RMB328包年(他们家不支持循环renewal，续费恢复1080)，低配小机2Mbps带宽流量不限，测速高峰时段延时都在15ms以内，油管720p播放顺畅，这个价格也是惊喜，但是不支持测试购买后不支持退款，这点在vps供应商很少见，有一定风险
+![](/posts/freedom-surfing-internet/hn-ping-test.png "hn-ping-test.png")
+![](/posts/freedom-surfing-internet/hn-mtr-test.jpeg "hn-mtr-test.jpeg")
+![](/posts/freedom-surfing-internet/hn-youtub-test.png "hn-youtub-test.png")

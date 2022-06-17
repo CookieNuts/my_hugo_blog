@@ -9,7 +9,7 @@ draft: false
 ## 1. Truffle Unbox Downloading Unbox failed | Hosts
 
 刚开始使用truffle学习时就会碰到这个问题，刚开始反应肯定是梯子失败了，检查无误，且也尝试访问raw.githubusercontent.com可以正常访问，所以陷入了很久的search之路，原来运营商DNS将raw.githubusercontent.com屏蔽(映射到0.0.0.0)且npm并没有使用代理访问，需要添加Hosts映射。
-```
+``` bash
 ➜ truffle unbox metacoin
 
 Starting unbox...
@@ -59,7 +59,7 @@ Hosts详细配置参考GoogleHosts [HostFile](https://raw.githubusercontent.com/
 **注:  执行truffle unbox <box-name>记得加sudo命令，别问为什么，不然不成功.**
 
 ## 2.Truffle常用命令
-```
+``` bash
 // 初始化新的truffle项目目录
 truffle init
 // 编译contract目录中的文件
