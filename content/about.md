@@ -21,4 +21,4 @@ draft: false
 
 ---
 
-<center>Thanks for joway's yinyang Hugo theme, it's cool.</center>
+<center>Thanks for joway's <a href="https://github.com/joway/hugo-theme-yinyang" target="_blank">yinyang</a> Hugo theme, it's really concise and cool.</center>
