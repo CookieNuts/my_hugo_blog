@@ -16,7 +16,7 @@ npx hardhat compile
 npx hardhat run script.js
 // 打开hardhat客户端连接指定网络 --network指定网络
 npx hardhat console
-// 执行test/目录测试脚本在harhat网络测试，执行前缀加`REPORT_GAS=true`环境变量开启测试Gas报告
+// 执行test/目录测试脚本在hardhat网络测试，执行前缀加`REPORT_GAS=true`环境变量开启测试Gas报告
 npx hardhat test
 // 部署contracts/目录合约到指定网络
 npx hardhat deploy
@@ -24,4 +24,21 @@ npx hardhat deploy
 npx hardhat node
 ```
 
+## 开启solidity优化器设置
+```
+编辑: hardhat.config.js
+
+solidity: {
+    version: "0.8.12",
+        settings: {
+            optimizer: {
+            enabled: true,
+            runs: 200
+        }
+    }
+},
+```
+
 使用[hardhat-gas-reporter](https://www.npmjs.com/package/hardhat-gas-reporter)为测试方法提供Gas报告
+
+

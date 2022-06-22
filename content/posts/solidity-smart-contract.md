@@ -45,6 +45,14 @@ view和pure外部合约方法调用不会产生GasFee, 但是内部方法调用�
 最佳实践: function a() external view / function b() external pure
 ```
 
+## transfer, send, call.value
+```
+(address payable).transfer(value)  转账异常会抛出异常终止合约，gas有最大2300限制
+(address payable).send(value)  转账返回true/false，gas有最大2300限制
+(address payable).call.value(value)  转账返回true/false, 无gas限制，使用不当会造成重入攻击，因无gas限制循环转账
+使用transfer转账操作
+```
+
 ## require, revert, assert
 ```
 1.require/revert/assert 语句在发生异常或assert为false时都会抛出异常
@@ -102,6 +110,7 @@ this.yourFunction.selector  //获取方法签名
 8.使用Merkle Root存储多值用于证明value存在性
 9.EVM使用32byte(256bit)storage slot，可以将小单位值打包存储，EVM也尝试会将struct中小变量打包为storage slot以节省空间
 10.合约代码中禁止排序，循环遍历等操作，Off-Chain Computation ，合约只做状态存储和基础共识操作
+11.启用EVM优化器优化合约部署和调用GAS
 ```
 
 ## call，delegatecall
