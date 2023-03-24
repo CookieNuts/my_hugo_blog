@@ -40,3 +40,15 @@ ___
 ![](/posts/freedom-surfing-internet/hn-ping-test.png "hn-ping-test.png")
 ![](/posts/freedom-surfing-internet/hn-mtr-test.jpeg "hn-mtr-test.jpeg")
 ![](/posts/freedom-surfing-internet/hn-youtub-test.png "hn-youtub-test.png")
+
+### AWS LightSail
+亚马逊光帆亚洲包括有许多节点，并且提供新手三个月免费使用lightsail和容器服务，对于日常使用$3.5 1C0.5G1T 和$5 1C1G2T的流量完全够个人和家庭使用，亚马逊对移动支持CMI线路，联通直连走AS4837，电信网络就不推荐会走163出口。测速联通网络高峰23点均值70ms，油管4K初始化会卡顿，后续带宽才会逐渐增加(猜想aws使用带宽懒加载模式)，推荐日本节点
+![](/posts/freedom-surfing-internet/aws-jp-ping-test.png "aws-jp-ping-test.png")
+![](/posts/freedom-surfing-internet/aws-jp-mtr-test.png "aws-jp-mtr-test.png")
+![](/posts/freedom-surfing-internet/aws-jp-youtub-test.png "aws-jp-youtub-test.png")
+
+### JuHost
+一家香港的小型云服务厂商，主打三网直连，因为服务器在香港延迟相对会低很多，目前厂商网络带宽很足几乎没有超售情况，$4.9 1C1G1T的VPS共享100Mps带宽，这个价格和测试结果感觉到捡到了宝，希望网络带宽能保持下去可以长期持有使用。测试联通网络高峰23点均值50ms，油管4K秒开ConnectSeed平均5W+，美中不足是流量双向计量，而且IP查询很多家(包含谷歌搜索页)会定位成中国深圳，对于一些网站限制IP会比较麻烦
+![](/posts/freedom-surfing-internet/jh-hk-ping-test.png "jh-hk-ping-test.png")
+![](/posts/freedom-surfing-internet/jh-hk-mtr-test.png "jh-hk-mtr-test.png")
+![](/posts/freedom-surfing-internet/jh-hk-youtub-test.png "jh-hk-youtub-test.png")
