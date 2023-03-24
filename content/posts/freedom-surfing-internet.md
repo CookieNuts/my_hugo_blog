@@ -48,7 +48,10 @@ ___
 ![](/posts/freedom-surfing-internet/aws-jp-youtub-test.png "aws-jp-youtub-test.png")
 
 ### JuHost
-一家香港的小型云服务厂商，主打三网直连，因为服务器在香港延迟相对会低很多，目前厂商网络带宽很足几乎没有超售情况，$4.9 1C1G1T的VPS共享100Mps带宽，这个价格和测试结果感觉到捡到了宝，希望网络带宽能保持下去可以长期持有使用。测试联通网络高峰23点均值50ms，油管4K秒开ConnectSeed平均5W+，美中不足是流量双向计量，而且IP查询很多家(包含谷歌搜索页)会定位成中国深圳，对于一些网站限制IP会比较麻烦
+一家香港的小型云服务厂商，主打三网直连，因为服务器在香港延迟相对会低很多，目前厂商网络带宽很足几乎没有超售情况，$4.9 1C1G1T的VPS共享100Mps带宽，这个价格和测试结果感觉到捡到了宝，希望网络带宽能保持下去可以长期持有使用。测试联通网络高峰23点均值50ms，油管4K秒开ConnectSeed平均5W+，美中不足是流量双向计量，而且IP查询很多家(包含谷歌搜索页)会定位成中国深圳，对于一些网站限制IP会比较麻烦。提供更换IP服务，单个ticket收费$5
 ![](/posts/freedom-surfing-internet/jh-hk-ping-test.png "jh-hk-ping-test.png")
 ![](/posts/freedom-surfing-internet/jh-hk-mtr-test.png "jh-hk-mtr-test.png")
 ![](/posts/freedom-surfing-internet/jh-hk-youtub-test.png "jh-hk-youtub-test.png")
+
+### GCP
+云服务厂商的大佬，以全球网络优化为特点，其中流量费用也是真的贵，对于中国地区出口流量单独计费。新人注册送$300三个月内试用任何服务，其中如果只用于自由上网，可以使用$5.4 N1 f1-mirco VCPU 0.6G 带宽不受限但流量单独计价，测试两个月平均每个月50G流量，单月vps+流量总费用$20+，对于普通用户来说这个价格还是太贵了。总的来说谷歌云哪哪都好，但是就一点你的钱包是否能撑得住
